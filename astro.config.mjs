@@ -40,6 +40,7 @@ const { SITE_URL } = loadEnv(process.env.NODE_ENV || 'production', process.cwd()
  * @see https://astro.build/config
  */
 export default defineConfig({
+
   /**
    * Output mode: Static Site Generation (SSG)
    * 
@@ -71,7 +72,7 @@ export default defineConfig({
    * 
    * Set SITE_URL in your .env file (e.g., https://example.com)
    */
-  site: SITE_URL || 'https://example.com',
+  site: SITE_URL || 'https://Yeray-AP.github.io',
   
   /**
    * Environment variables schema (Astro v5+)
